@@ -1,0 +1,21 @@
+{
+    "name": "seti",
+    "displayName": "seti",
+    "description": "Tema seti basado en seti-syntax de atom",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "seti",
+                "uiTheme": "vs-dark",
+                "path": "./themes/sriosv-color-theme.json"
+            }
+        ]
+    }
+}
