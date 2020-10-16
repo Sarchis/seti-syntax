@@ -173,7 +173,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#519aba"
 			}
 		},
 		{
@@ -228,11 +228,20 @@
 				"constant.character",
 				"constant.escape",
 				"variable.parameter",
+				
+			],
+			"settings": {
+				"foreground": "#a074c4"
+			}
+		},
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"scope": [
 				"keyword.other.unit",
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#a074c4"
+				"foreground": "#cc3e44"
 			}
 		},
 		{
@@ -247,7 +256,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#9ac4d7"
 			}
 		},
 		{
