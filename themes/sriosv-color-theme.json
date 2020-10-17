@@ -996,7 +996,7 @@
         "name": "[VSCODE-CUSTOM] Markdown Inline Raw",
         "scope": "markup.inline.raw.string.markdown",
         "settings": {
-          "foreground": "#98c379"
+          "foreground": "#8DC149"
         }
       },
       {
@@ -1038,7 +1038,7 @@
         "name": "[VSCODE-CUSTOM] Markdown headings",
         "scope": "entity.name.section.markdown",
         "settings": {
-          "foreground": "#e06c75"
+          "foreground": "#A074C4"
         }
       },
       {
@@ -1088,8 +1088,21 @@
         "name": "Headings",
         "scope": "markup.heading",
         "settings": {
-          "fontStyle": "bold",
-          "foreground": "#e06c75"
+          "foreground": "#A074C4"
+        }
+      },
+      {
+        "name": "Headings",
+        "scope": "heading.1.markdown",
+        "settings": {
+          "foreground": "#A074C4",
+        }
+      },
+      {
+        "name": "Markdown code block",
+        "scope": "markup.fenced_code.block.markdown",
+        "settings": {
+          "foreground": "#519ABA"
         }
       },
       {
@@ -1979,7 +1992,14 @@
           "settings": {
               "foreground": "#8dc149",
           }
-      }
+      },
+      {
+        "name": "Source shell",
+        "scope": "source.shell",
+        "settings": {
+            "foreground": "#519aba",
+        }
+    }
     ],
     "type": "dark"
   }
