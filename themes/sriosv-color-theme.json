@@ -941,7 +941,8 @@
         "name": "markup.bold.markdown",
         "scope": "markup.bold.markdown",
         "settings": {
-          "fontStyle": "bold"
+          "fontStyle": "bold",
+          "foreground": "#CBCB41"
         }
       },
       {
@@ -1010,7 +1011,7 @@
         "name": "[VSCODE-CUSTOM] Markdown Punctuation Definition Bold",
         "scope": "punctuation.definition.bold.markdown",
         "settings": {
-          "foreground": "#d19a66"
+          "foreground": "#CBCB41"
         }
       },
       {
@@ -1052,7 +1053,7 @@
         "name": "markup Italic",
         "scope": "markup.italic, punctuation.definition.italic,todo.emphasis",
         "settings": {
-          "foreground": "#c678dd"
+          "foreground": "#A074C4"
         }
       },
       {
@@ -1899,7 +1900,8 @@
         "name": "markup.italic.markdown",
         "scope": "markup.italic.markdown",
         "settings": {
-          "fontStyle": "italic"
+          "fontStyle": "italic",
+          "foreground": "#9AC4D7"
         }
       },
       {
