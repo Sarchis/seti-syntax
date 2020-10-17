@@ -376,7 +376,7 @@
           "source.ini"
         ],
         "settings": {
-          "foreground": "#98c379"
+          "foreground": "#8DC149"
         }
       },
       {
@@ -714,6 +714,13 @@
         }
       },
       {
+        "name": "docstring python",
+        "scope": "string.quoted.docstring.multi.python",
+        "settings": {
+          "foreground": "#2f6076"
+        }
+      },
+      {
         "name": "php heredoc/nowdoc",
         "scope": "keyword.operator.heredoc.php,keyword.operator.nowdoc.php",
         "settings": {
@@ -956,7 +963,7 @@
         "name": "[VSCODE-CUSTOM] Markdown Underline Link/Image",
         "scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
         "settings": {
-          "foreground": "#c678dd"
+          "foreground": "#A074C4"
         }
       },
       {
@@ -1082,7 +1089,7 @@
         "name": "Headings",
         "scope": "markup.heading punctuation.definition.heading, entity.name.section",
         "settings": {
-          "foreground": "#61afef"
+          "foreground": "#519ABA"
         }
       },
       {
@@ -1175,7 +1182,7 @@
         "name": "Inherited Class",
         "scope": "entity.other.inherited-class",
         "settings": {
-          "foreground": "#e5c07b"
+          "foreground": "#93acb7"
         }
       },
       {
@@ -1312,7 +1319,7 @@
         "name": "Classes",
         "scope": "support.class, entity.name.type.class",
         "settings": {
-          "foreground": "#e5c07b"
+          "foreground": "#a074c4"
         }
       },
       {
@@ -1398,6 +1405,34 @@
         }
       },
       {
+        "name": "variable.parameter.function-call.python",
+        "scope": "variable.parameter.function-call.python",
+        "settings": {
+          "foreground": "#cbcb41"
+        }
+      },
+      {
+        "name": "string.quoted.single.python",
+        "scope": "string.quoted.single.python",
+        "settings": {
+          "foreground": "#519ABA"
+        }
+      },
+      {
+        "name": "meta.function-call.arguments.python",
+        "scope": "meta.function-call.arguments.python",
+        "settings": {
+          "foreground": "#8dc149"
+        }
+      },
+      {
+        "name": "meta.attribute.python",
+        "scope": "meta.attribute.python",
+        "settings": {
+          "foreground": "#cc3e44"
+        }
+      },
+      {
         "name": "python placeholder reset to normal string",
         "scope": "constant.character.format.placeholder.other.python",
         "settings": {
@@ -1408,7 +1443,7 @@
         "name": "python function-call.generic",
         "scope": "meta.function-call.generic.python",
         "settings": {
-          "foreground": "#61afef"
+          "foreground": "#cbcb41"
         }
       },
       {
@@ -1443,7 +1478,21 @@
         "name": "python parameter",
         "scope": "variable.parameter.function.language.python",
         "settings": {
-          "foreground": "#d19a66"
+          "foreground": "#CBCB41"
+        }
+      },
+      {
+        "name": "variable.language.special.self.python",
+        "scope": "variable.language.special.self.python",
+        "settings": {
+          "foreground": "#7494a3"
+        }
+      },
+      {
+        "name": "string.quoted.multi.python",
+        "scope": "string.quoted.multi.python",
+        "settings": {
+          "foreground": "#2f6076"
         }
       },
       {
@@ -1858,7 +1907,7 @@
         "name": "variable.parameter.function.language.special.self.python",
         "scope": "variable.parameter.function.language.special.self.python",
         "settings": {
-          "foreground": "#e5c07b"
+          "foreground": "#CBCB41"
         }
       },
       {
@@ -1872,7 +1921,7 @@
         "name": "support.variable.magic.python",
         "scope": "support.variable.magic.python",
         "settings": {
-          "foreground": "#e06c75"
+          "foreground": "#8DC149"
         }
       },
       {
@@ -1908,7 +1957,14 @@
         "name": "Python Keyword Control",
         "scope": "keyword.control.import.python,keyword.control.flow.python",
         "settings": {
-          "fontStyle": "italic"
+          "foreground": "#d4d7d6"
+        }
+      },
+      {
+        "name": "source python",
+        "scope": "source.python",
+        "settings": {
+          "foreground": "#519aba"
         }
       },
       {
@@ -2001,6 +2057,13 @@
         "settings": {
             "foreground": "#519aba",
         }
+    },
+    {
+      "name": "keyword.other.definition.ini",
+      "scope": "keyword.other.definition.ini",
+      "settings": {
+        "foreground": "#CC3E44"
+      }
     }
     ],
     "type": "dark"
