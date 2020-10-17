@@ -1858,7 +1858,28 @@
         "name": "regexp operator.quantifier",
         "scope": "keyword.operator.quantifier.regexp",
         "settings": {
-          "foreground": "#d19a66"
+          "foreground": "#cc3e44"
+        }
+      },
+      {
+        "name": "keyword.other.js",
+        "scope": "keyword.other.js",
+        "settings": {
+          "foreground": "#519aba"
+        }
+      },
+      {
+        "name": "variable.other.object.js",
+        "scope": "variable.other.object.js",
+        "settings": {
+          "foreground": "#519ABA"
+        }
+      },
+      {
+        "name": "variable.language.this.js",
+        "scope": "variable.language.this.js",
+        "settings": {
+          "foreground": "#7494a3"
         }
       },
       {
