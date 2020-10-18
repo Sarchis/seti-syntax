@@ -1,10 +1,16 @@
 {
     "name": "seti",
     "displayName": "seti",
-    "description": "Tema seti basado en seti-syntax de atom",
+    "description": "Seti theme for VsCode",
+    "publisher": "seti",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.50.0"
+    },
+    "homepage": "https://github.com/Sarchis/seti-syntax",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Sarchis/seti-syntax"
     },
     "categories": [
         "Themes"
@@ -17,5 +23,13 @@
                 "path": "./themes/sriosv-color-theme.json"
             }
         ]
-    }
+    },
+    "icon": "icon.png",
+    "keywords": [
+        "seti",
+        "atom seti",
+        "seti theme",
+        "atom",
+        "theme"
+    ]
 }
