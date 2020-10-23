@@ -1280,7 +1280,7 @@
         "name": "Keyword Control",
         "scope": "keyword.control",
         "settings": {
-          "foreground": "#c678dd"
+          "foreground": "#8dc149"
         }
       },
       {
@@ -1527,7 +1527,7 @@
         "name": "C operator assignment",
         "scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c,keyword.operator.assignment.cpp,keyword.operator.comparison.cpp,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp",
         "settings": {
-          "foreground": "#c678dd"
+          "foreground": "#cc3e44"
         }
       },
       {
@@ -2085,7 +2085,9 @@
       "settings": {
         "foreground": "#CC3E44"
       }
-    }, 
+    },
+
+    // Archivos .ino
     {
       "name": "variable env",
       "scope": "variable.other.env",
@@ -2099,7 +2101,87 @@
       "settings": {
         "foreground": "#519aba"
       }
-    }, 
+    },
+
+    // Archivos .ino, c
+    {
+      "name": "Include cpp",
+      "scope": "string.quoted.other.lt-gt.include.cpp",
+      "settings": {
+        "foreground": "#519aba"
+      }
+    },
+    {
+      "name": "definition string begin/end cpp",
+      "scope": "punctuation.definition.string.begin.cpp, punctuation.definition.string.end.cpp",
+      "settings": {
+        "foreground": "#519aba"
+      }
+    },
+    {
+      "name": "sourcce cpp",
+      "scope": "source.cpp",
+      "settings": {
+        "foreground": "#519aba"
+      }
+    },
+    {
+      "name": "entity name cpp",
+      "scope": "entity.name.function.preprocessor.cpp",
+      "settings": {
+        "foreground": "#a074c4"
+      }
+    },
+    {
+      "name": "variable parameter cpp",
+      "scope": "variable.parameter.preprocessor.cpp, meta.parens.cpp",
+      "settings": {
+        "foreground": "#519aba"
+      }
+    },
+    {
+      "name": "built in primitive cpp",
+      "scope": "storage.type.built-in.primitive.cpp",
+      "settings": {
+        "foreground": "#a074c4"
+      }
+    },
+    {
+      "name": "entity name cpp",
+      "scope": "entity.name.type.cpp",
+      "settings": {
+        "foreground": "#a074c4"
+      }
+    },
+    {
+      "name": "modifiers pointer",
+      "scope": "storage.modifier.pointer.cpp, punctuation.separator.dot-access.cpp, keyword.operator.ternary.cpp",
+      "settings": {
+        "foreground": "#cc3e44"
+      }
+    },
+    {
+      "name": "variable parameter",
+      "scope": "variable.parameter.cpp",
+      "settings": {
+        "foreground": "#519aba"
+      }
+    },
+    {
+      "name": "storage type built-in cpp",
+      "scope": "storage.type.built-in.cpp",
+      "settings": {
+        "foreground": "#a074c4"
+      }
+    },
+    {
+      "name": "variable.other.object.access.cpp",
+      "scope": "variable.other.object.access.cpp",
+      "settings": {
+        "foreground": "#519aba"
+      }
+    },
+
 
     ],
     "type": "dark"
