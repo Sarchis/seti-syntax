@@ -2085,7 +2085,22 @@
       "settings": {
         "foreground": "#CC3E44"
       }
-    }
+    }, 
+    {
+      "name": "variable env",
+      "scope": "variable.other.env",
+      "settings": {
+        "foreground": "#a074c4"
+      }
+    }, 
+    {
+      "name": "source env",
+      "scope": "source.env",
+      "settings": {
+        "foreground": "#519aba"
+      }
+    }, 
+
     ],
     "type": "dark"
   }
