@@ -3,7 +3,7 @@
     "displayName": "seti",
     "description": "Seti theme for VsCode",
     "publisher": "seti",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "engines": {
         "vscode": "^1.50.0"
     },
