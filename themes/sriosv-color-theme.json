@@ -1545,7 +1545,7 @@
       "name": "css attribute-name.id",
       "scope": "support.constant.color.w3c-standard-color-name.css",
       "settings": {
-        "foreground": "#d19a66"
+        "foreground": "#a074c4"
       }
     },
     {
@@ -1559,7 +1559,7 @@
       "name": "css color standard name",
       "scope": "support.constant.color.w3c-standard-color-name.css,support.constant.color.w3c-standard-color-name.scss",
       "settings": {
-        "foreground": "#d19a66"
+        "foreground": "#a074c4"
       }
     },
     {
@@ -2104,6 +2104,84 @@
         "foreground": "#8DC149"
       }
     },
+    {
+      "name": "punctuation decorator",
+      "scope": "punctuation.decorator.ts, meta.block.ts",
+      "settings": {
+        "foreground": "#519aba",
+      }
+    },
+    {
+      "name": "punctuation, operator ts",
+      "scope": "punctuation.separator.key-value.ts, keyword.operator.assignment.ts, keyword.operator.type.annotation.ts, keyword.operator.arithmetic.ts",
+      "settings": {
+        "foreground": "#cc3e44",
+      }
+    },
+    {
+      "name": "Object literal",
+      "scope": "meta.object-literal.key.ts",
+      "settings": {
+        "foreground": "#8dc149",
+      }
+    },
+    {
+      "name": "storage types",
+      "scope": "storage.type.ts",
+      "settings": {
+        "foreground": "#cbcb41",
+      }
+    },
+    {
+      "name": "storage modifier-interface",
+      "scope": "storage.modifier.ts, storage.type.interface.ts",
+      "settings": {
+        "foreground": "#cc3e44",
+      }
+    },
+    {
+      "name": "variable parameter",
+      "scope": "variable.parameter.ts",
+      "settings": {
+        "foreground": "#519aba",
+      }
+    },
+    {
+      "name": "name types",
+      "scope": "entity.name.type.ts",
+      "settings": {
+        "foreground": "#a074c4",
+      }
+    },
+    {
+      "name": "variable this",
+      "scope": "variable.language.this.ts",
+      "settings": {
+        "foreground": "#519aba",
+      }
+    },
+    {
+      "name": "types primitive",
+      "scope": "support.type.primitive.ts",
+      "settings": {
+        "foreground": "#a074c4",
+      }
+    },
+    {
+      "name": "entity inherit class",
+      "scope": "entity.other.inherited-class.ts",
+      "settings": {
+        "foreground": "#a074c4",
+      }
+    },
+    {
+      "name": "string quoted",
+      "scope": "string.quoted.single.ts",
+      "settings": {
+        "foreground": "#519aba",
+      }
+    },
+    
   ],
   "type": "dark"
 }
